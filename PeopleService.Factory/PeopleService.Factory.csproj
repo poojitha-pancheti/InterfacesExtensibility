@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PeopleService.SQL\PeopleService.SQL.csproj" />
+    <ProjectReference Include="..\PersonRepository.Service\PersonRepository.Service.csproj" />
+    <ProjectReference Include="..\PersonRepositoty.Interface\PersonRepository.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
